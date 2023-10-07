@@ -1,0 +1,14 @@
+1. Create a topic having 3 brokers as --bootstrap-server. 
+The brokers' ports are taken from the docker-compose_kafka.yml
+The topic should have 4 partitions and replication-factor 2
+The name of the topic is events2.  
+Purge the topic. Set retention to a small value
+
+2. Check the topic. Create a producer and send some messages.
+
+After sometime when you run this command the messages will not be shown
+
+3. Set retention to normal value like retention.ms=604800000
+ Check the topic. Create a producer and send some messages.
+
+4. Delete topic
