@@ -4,11 +4,19 @@ The topic should have 4 partitions and replication-factor 2
 The name of the topic is events2.  
 Purge the topic. Set retention to a small value
 
+/usr/bin/kafka-topics --create --bootstrap-server kafka:19092,kafka2:19093,kafka3:19094 --replication-factor 2 --partitions 4 --topic events2 --config retention.ms=10
+
 2. Check the topic. Create a producer and send some messages.
 
 After sometime when you run this command the messages will not be shown
 
+/usr/bin/kafka-console-producer --broker-list kafka:19092,kafka2:19093,kafka3:19094 --topic events2
+
 3. Set retention to normal value like retention.ms=604800000
  Check the topic. Create a producer and send some messages.
 
+/usr/bin/kafka-configs --bootstrap-server kafka:19092,kafka2:19093,kafka3:19094 --entity-type topics --entity-name events2 --alter --add-config retention.ms=604800000
+
 4. Delete topic
+
+/usr/bin/kafka-topics --delete --bootstrap-server kafka:19092,kafka2:19093,kafka3:19094 --topic events2
