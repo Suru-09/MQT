@@ -3,7 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/lab3/Lab3_graddle" />
-    <file type="web" url="file://$PROJECT_DIR$/teme_obligatorii/Kafka_homeworks" />
+    <file type="web" url="file://$PROJECT_DIR$/teme_obligatorii/Kafka_examples" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="openjdk-21" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

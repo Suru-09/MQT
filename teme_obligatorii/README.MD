@@ -9,13 +9,13 @@
 ## 4. Creare ConsumerAPI Kafka ptr Producer-ul de mai sus.
     --> Kafka_homeworks/src/main/java/org/example/consumer/SimpleConsumer.java
 ## 5. Creare ProducerAPI care trimite evenimente sub forma json pe Kafka.
-
+    --> Kafka_homeworks/src/main/java/org/example/json/JsonStringProducer.java
 ## 6. Creare ConsumerAPI Kafka ptr Producer-ul de mai sus.
-
+    --> Kafka_homeworks/src/main/java/org/example/json/JsonStringConsumer.java
 ## 5. Creare ProducerAPI care trimite evenimente sub forma de obiecte definite (clase Java, C#, etc) in API pe Kafka.
-
+    --> Kafka_homeworks/src/main/java/org/example/json/JsonObjectProducer.java
 ## 6. Creare ConsumerAPI Kafka ptr Producer-ul de mai sus.
-
+    --> Kafka_homeworks/src/main/java/org/example/json/JsonObjectConsumer.java 
 ## 7. Creare ProducerAPI si publicare mesaje folosind schema for Kafka.
 
 ## 8. Creare ConsumerAPI for Kafka si consumare mesaje folo

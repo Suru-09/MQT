@@ -7,6 +7,9 @@ version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+    maven {
+        url "https://packages.confluent.io/maven"
+    }
 }
 
 dependencies {
@@ -15,6 +18,9 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients
     implementation 'org.apache.kafka:kafka-clients:3.0.0'
+    implementation group: 'io.confluent', name: 'kafka-json-schema-serializer', version: '7.5.1'
+    implementation group: 'io.confluent', name: 'kafka-json-serializer', version: '7.5.1'
+    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.16.0'
 
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-api
     implementation 'org.slf4j:slf4j-api:1.7.32'
