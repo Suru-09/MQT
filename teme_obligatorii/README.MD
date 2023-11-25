@@ -17,13 +17,11 @@
 ## 6. Creare ConsumerAPI Kafka ptr Producer-ul de mai sus.
     --> Kafka_homeworks/src/main/java/org/example/json/JsonObjectConsumer.java 
 ## 7. Creare ProducerAPI si publicare mesaje folosind schema for Kafka.
-
-## 8. Creare ConsumerAPI for Kafka si consumare mesaje folo
-
-sind schema.
-
+    --> Kafka_homeworks/src/main/java/org/example/avro/AvroProducer.java
+## 8. Creare ConsumerAPI for Kafka si consumare mesaje folosind schema.
+    --> Kafka_homeworks/src/main/java/org/example/avro/AvroConsumer.java
 ## 9. Creare pipeline: un ConsumerAPI poate deveni mai departe Producator.
-
+    --> Kafka_homeworks/src/main/java/org/example/pipeline/Pipeline.java
 ## 10. Folositi: Confluent REST proxy si prin cereri HTTP: creati un topic, cititi mesajele din topic.
 
 ## 11. Creare API care publica evenimente pe 2 topic-uri Kafka. Folosind Kafka Streams, agregati datele de pe cele 2 topic-uri in alt topic.

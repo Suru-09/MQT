@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'com.github.davidmc24.gradle.plugin.avro' version '1.9.1'
 }
 
 group = 'org.example'
@@ -21,6 +22,9 @@ dependencies {
     implementation group: 'io.confluent', name: 'kafka-json-schema-serializer', version: '7.5.1'
     implementation group: 'io.confluent', name: 'kafka-json-serializer', version: '7.5.1'
     implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.16.0'
+
+    // avro
+    implementation group: 'io.confluent', name: 'kafka-avro-serializer', version: '7.5.1'
 
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-api
     implementation 'org.slf4j:slf4j-api:1.7.32'
