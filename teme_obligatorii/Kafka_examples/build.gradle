@@ -26,6 +26,9 @@ dependencies {
     // avro
     implementation group: 'io.confluent', name: 'kafka-avro-serializer', version: '7.5.1'
 
+    // kafka streams
+    implementation group: 'org.apache.kafka', name: 'kafka-streams', version: '3.6.0'
+
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-api
     implementation 'org.slf4j:slf4j-api:1.7.32'
 
