@@ -24,6 +24,7 @@
     --> Kafka_homeworks/src/main/java/org/example/pipeline/Pipeline.java
 ## 10. Folositi: Confluent REST proxy si prin cereri HTTP: creati un topic, cititi mesajele din topic.
 
+![Ex_10](D:\GithubCloning\MQT\teme_obligatorii\resources\ex_10.png)
 ## 11. Creare API care publica evenimente pe 2 topic-uri Kafka. Folosind Kafka Streams, agregati datele de pe cele 2 topic-uri in alt topic.
 
 ## 12. Creare API care publica evenimente pe 2 topic-uri Kafka. Folosind kSQL efectuati cereri SQL folosind datele din cele 2 topic-uri.

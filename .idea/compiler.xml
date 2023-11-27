@@ -2,9 +2,6 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="21">
-      <module name="Kafka_examples" target="16" />
-      <module name="Kafka_examples.main" target="16" />
-      <module name="Kafka_examples.test" target="16" />
       <module name="org.example.Kafka_examples" target="16" />
       <module name="org.example.Kafka_examples.main" target="16" />
       <module name="org.example.Kafka_examples.test" target="16" />
