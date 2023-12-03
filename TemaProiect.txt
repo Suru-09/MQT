@@ -1,0 +1,7 @@
+Explore the Confluent Cloud: menus, operations, etc. and make a study based on your analysis.  
+You can study: schema, connectors, clients, even other technologies, as Flink. 
+
+Start from the laboratory 9 assignment exercises and enrich them: add clients: Producers, Consumers, Consumer groups. 
+Add source or sink connectors to and from the already created topics.
+
+BE AWARE the Confluent Cloud grace period is 30 days.
