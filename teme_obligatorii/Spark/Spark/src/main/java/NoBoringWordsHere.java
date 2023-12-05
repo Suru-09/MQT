@@ -5,9 +5,10 @@ import org.apache.spark.api.java.JavaSparkContext;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
+
 public class NoBoringWordsHere {
     public static void main(String[] args) {
-        SparkConf conf = new SparkConf().setAppName("SOME APP NAME").setMaster("local").set("spark.executor.memory","1g");
+        SparkConf conf = new SparkConf().setAppName("NoBoringWordsHere").setMaster("local");
         JavaSparkContext sc = new JavaSparkContext(conf);
 
         String file1Path = "src/main/resources/article.txt";
